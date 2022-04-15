@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Podkova:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Podkova', serif;
+  background: #EAE6E2;
+}
+
+.frame {
+  width: auto;
+  margin: 0 10%;
+} 
+
+.title-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.title-line, .menu-line, .payment-line {
+  height: 0;
+  width: 30%;
+  border: 1px solid #615F5B;
+  border-radius: 5px;
+}
+
+.hero-img {
+  height: 314px;
+  background-image: url("./img/image_50416385.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu-frame {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-title {
+  width: auto;
+  text-align: center;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
